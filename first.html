@@ -5,33 +5,85 @@
         <title>First page</title>
     </head>
     <body>
-        <h1>Aya</h1>
-        <p>
-            Hello 
-            I am  <b><i>Aya</i></b> from Tanta
-        </p>
-        <img src="images/EZRK2748.JPG" alt="Not found" height="100" width="100">
-        <h2>
-            <!-- it is un ordered list-->
-            <ul>
-                <li>Html</li>
-                <li>Css</li>
-                <li>
-                    Js
+        <header>
+            <h1>Aya</h1>
+            <nav>
+                <a href="#turn"> Go to Css</a>
+            </nav>
+            <p>
+                Hello 
+                I am  <b><i>Aya</i></b> from Tanta
+            </p>
+            <img src="images/EZRK2748.JPG" alt="Not found" height="100" width="100">
+        </header>
+        <hr>
+        
+        <main>
+            <section>
+                <h2>Skills</h2>
+                    <!-- it is un ordered list-->
                     <ul>
-                    <li>Angular</li>
-                    <li>React</li>
-                </ul>
-                </li>
-            </ul>
-            <dl>
-            <dt>HTML</dt>
-            <dd>language of web</dd>
-            <dd>The first </dd>
-            <dt>css</dt>
-            <dd>The new language</dd>
-        </dl>
-        </h2>
-        <a href="https:google.com" target="_blank">google</a>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>
+                            Js
+                            <ol>
+                            <li>Angular</li>
+                            <li>React</li>
+                            </ol>
+                        </li>
+                    </ul>
+
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>language of web</dd>
+                    <dd>The first </dd>
+                    <dt id="turn">css</dt>
+                    <dd>The new language</dd>
+                </dl>
+            </section>
+        </main>
+        <hr>
+        <section>
+            <h2>About Me</h2>
+            <p>I am learning  <mark><u>Frontend</u></mark></p>
+            <p>My goal is to be a <strong><em>web developer</em></strong></p>
+        </section>
+        <hr>
+
+        <section>
+            <h2>My Courses</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Course</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>finished</td>
+                            <td>HTML</td>
+                        </tr>
+                        <tr>
+                            <td>in progress</td>
+                            <td>CSS</td>
+                        </tr>
+                        <tr>
+                            <td>Not started</td>
+                            <td>JS</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+        <hr>
+
+        <footer>
+            <a href="https:google.com" target="_blank">google</a> <br>
+            <hr>
+            <p>
+                &copy; Aya
+            </p>
+        </footer>
     </body>
 </html>
