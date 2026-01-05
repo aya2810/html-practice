@@ -2,53 +2,75 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>First page</title>
+        <title>Profile page</title>
     </head>
     <body>
         <header>
-            <h1>Aya</h1>
             <nav>
+                <h2>Aya Saber</h2>
+                <ul>
+                    <li>
+                        <a href="#profile"> Profile</a>
+                        <a href="#about"> About</a>
+                        <a href="#skills"> Skills</a>
+                        <a href="#contact"> Contact</a>
+                    </li>
+                </ul>
+                <!--
                 <a href="#turn"> Go to Css</a>
+                -->
             </nav>
+            <!--
             <p>
                 Hello 
                 I am  <b><i>Aya</i></b> from Tanta
             </p>
             <img src="images/EZRK2748.JPG" alt="Not found" height="100" width="100">
+            -->
+            
         </header>
         <hr>
         
         <main>
-            <section>
-                <h2>Skills</h2>
-                    <!-- it is un ordered list-->
-                    <ul>
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>
-                            Js
-                            <ol>
-                            <li>Angular</li>
-                            <li>React</li>
-                            </ol>
-                        </li>
-                    </ul>
+            <section id="profile">
+                <h2>Aya Saber</h2>
+                <img src="images/EZRK2748.JPG" alt="Not found" width="150" height="150">  
+                <p>Front - End Student</p>                  
+            </section>
+            <hr>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    I am learning Frontend Development
+                     and I hope to be perfect in it
+                </p>
+            </section>
+            <hr>
+            <section id="skills">
+                <h2>My Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </section>
+            <hr>
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>Email:<a href="mailto:ayasaber28102001@gmail.com"> ayasaber28102001@gmail.com</a></p>
 
-                <dl>
-                    <dt>HTML</dt>
-                    <dd>language of web</dd>
-                    <dd>The first </dd>
-                    <dt id="turn">css</dt>
-                    <dd>The new language</dd>
-                </dl>
+                <form >
+                    <label>Name</label> <br>
+                    <input type="text"> <br> <br>
+                    
+                    <label>Email</label> <br>
+                    <input type="email"> <br> <br>
+
+                    <label>Message</label> <br>
+                    <textarea ></textarea> <br> <br>
+                </form>
             </section>
         </main>
-        <hr>
-        <section>
-            <h2>About Me</h2>
-            <p>I am learning  <mark><u>Frontend</u></mark></p>
-            <p>My goal is to be a <strong><em>web developer</em></strong></p>
-        </section>
         <hr>
 
         <section>
