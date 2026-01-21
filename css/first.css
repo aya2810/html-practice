@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    background-color: #eee;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "logo logo logo nav nav nav nav nav nav nav"
+        "cont cont cont cont cont cont cont cont sec sec"
+        "foot foot foot foot foot foot foot foot foot foot ";
+}
+
+.a {
+    grid-area: logo;
+}
+
+.b {
+    grid-area: nav;
+}
+
+main {
+    grid-area: cont;
+    background-color: blue;
+}
+
+.sec {
+    color: red;
+    grid-area: sec;
+    background-color: black;
+}
+
+footer {
+    grid-area: foot;
+    background-color: blueviolet;
+}

@@ -1,7 +1,14 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #ddd;
+    background-color: #f4f4f4;
     padding: 20px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
     /* width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +35,47 @@ p {
     font-size: 25px;
     line-height: 15px;
     color: rgb(56, 52, 52);
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.parent {
+    width: 600px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.f {
+    background-color: #eee;
+    width: 300px;
+    height: 100px;
+    /* transition-duration: 2s;
+    transition-delay: 1s;
+    transition-property: width;
+    transition-timing-function: ease; */
+    /* float: left;
+    padding: 10px; */
+    /* border: 10px solid green; */
+    /* box-sizing: border-box; */
+}
+
+.f:hover {
+    margin-left: 20px;
+    width: 200px;
+}
+
+#w {
+    color: white;
+    text-align: center;
+    background-color: #c5a5a5;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 0px #0c0808;
 }
 
 mark {
@@ -45,8 +93,18 @@ del {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: white;
     font-size: 25px;
+    display: block;
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+a:hover {
+    background-color: red;
 }
 
 img {
@@ -62,15 +120,45 @@ img {
 #y {
     background-color: #ffffff;
     padding: 20px;
+    /* list-style: none;
+    position: relative; */
 }
 
-li {
+/* #x ::before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid black;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* margin-top: 9px;
+    padding: 3px; */
+/* border-style: solid;
+    border-color: red; */
+/* } */
+
+*/ li {
     margin: 5px;
 }
 
 #x {
     margin-left: 10px;
     background-color: coral;
+    list-style: none;
+    position: relative;
+}
+
+#x li {
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-left: 15px solid black;
+    margin-top: 8px;
 }
 
 #z {
