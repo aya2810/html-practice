@@ -35,6 +35,11 @@ nav ul {
     display: flex;
     gap: 20px;
     list-style: none;
+    transform: skew(19deg);
+}
+
+nav a:hover {
+    color: #79baf0;
 }
 
 nav a {
